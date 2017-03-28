@@ -1,0 +1,19 @@
+{
+  "name": "CustomTableViewPod2",
+  "version": "1.0.0",
+  "summary": "A TableView DataSource Pod",
+  "description": "A tableview data source pod with custom cells which can download image icons and provide a nice UI and UX",
+  "homepage": "https://github.com/vallal7",
+  "license": "MIT",
+  "authors": {
+    "ganesas": "gashwin@live.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/vallal7/CustomTableViewPod2",
+    "tag": "1.0.0"
+  },
+  "source_files": "CustomTableViewPodProj/*.{h,m}"
+}

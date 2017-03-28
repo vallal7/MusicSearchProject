@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0037B4AB6763C65FA262BEE0FDE518D2 /* SearchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A747D5D8BC95046B2DB39AABF2D0898 /* SearchTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		065DCA1560D1F4E9EEA5A5247DB871CB /* CustomTableViewPod2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A66C9C248B4307E2AE99AEEC8B3DA23 /* CustomTableViewPod2-dummy.m */; };
+		1F3FF7517C6B4BCC1E3DC4037BF4F213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		23FADCB411F76A1D285378E94CDEA198 /* CustomTableViewPodProj.h in Headers */ = {isa = PBXBuildFile; fileRef = DE94392C4E28CF66563D8666E76B0A43 /* CustomTableViewPodProj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30BDB267D6032C0857F7F01F84148412 /* TrackModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D447E89FA97815C0C6E8D04D38E88E /* TrackModel.m */; };
+		336B306E7F932C90AC7F02F20A9ACD3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4A59B0FFF9054D35906A7CA421B3DE7B /* TrackModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E1C50AEC3F116BD1B072E2EBFEFBE9 /* TrackModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BACA62F76EA664142BB109B4364AF63 /* Pods-MusicSearchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B1FC591C67AD089F4C9C3B7FC62654 /* Pods-MusicSearchUITests-dummy.m */; };
+		6EF8D2125658E76E037F0E608685ACBB /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA8AB8AB2DCA03DFDFC4265B79E917C /* TableViewDataSource.m */; };
+		714ED78038BC7C988BA7446E93F554C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7F3CF1E644BA85A60687D00367C3587C /* Pods-MusicSearchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C60A8B8693199B9E0A8DF472BAEC91 /* Pods-MusicSearchTests-dummy.m */; };
+		BA202436D4B6575A113886436AF4C788 /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F04D64DCBA3A3472E45362E3D9C1B2 /* SearchTableViewCell.m */; };
+		D2FBF1E205EA9330C06E866BCF10FFEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D9DE8EF9CCF8D66CF9889F846B1C711C /* Pods-MusicSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E856CDE5D14F8EBE2174747D5E24F1C /* Pods-MusicSearch-dummy.m */; };
+		F1353B5E58E3CE38A780C43203F44AC7 /* TableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A293D5AC7C8B3D27DB489A7A982879A /* TableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87021B08768772C2291B5334AF8FFD9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7112D83F9BDF5A37683083533248F6A8;
+			remoteInfo = CustomTableViewPod2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D1C1141FCD015F694B65465658B092 /* Pods-MusicSearchTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicSearchTests-frameworks.sh"; sourceTree = "<group>"; };
+		11C60A8B8693199B9E0A8DF472BAEC91 /* Pods-MusicSearchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicSearchTests-dummy.m"; sourceTree = "<group>"; };
+		12DE0835CCA78A55CD0D3BD176D0276B /* Pods-MusicSearchTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicSearchTests-resources.sh"; sourceTree = "<group>"; };
+		1A293D5AC7C8B3D27DB489A7A982879A /* TableViewDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TableViewDataSource.h; path = CustomTableViewPodProj/TableViewDataSource.h; sourceTree = "<group>"; };
+		2F0852EA0A373FD048DBAD1703B76682 /* Pods-MusicSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34CCD22FE907E596C58571259131291F /* Pods-MusicSearch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicSearch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A66C9C248B4307E2AE99AEEC8B3DA23 /* CustomTableViewPod2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomTableViewPod2-dummy.m"; sourceTree = "<group>"; };
+		3A747D5D8BC95046B2DB39AABF2D0898 /* SearchTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SearchTableViewCell.h; path = CustomTableViewPodProj/SearchTableViewCell.h; sourceTree = "<group>"; };
+		3E856CDE5D14F8EBE2174747D5E24F1C /* Pods-MusicSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicSearch-dummy.m"; sourceTree = "<group>"; };
+		49436EE90423E1FC9485AE245547E14F /* Pods-MusicSearchUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicSearchUITests-resources.sh"; sourceTree = "<group>"; };
+		4A7D81AA4C619C31EBCADB1EC9BBC009 /* CustomTableViewPod2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomTableViewPod2.xcconfig; sourceTree = "<group>"; };
+		50F04D64DCBA3A3472E45362E3D9C1B2 /* SearchTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SearchTableViewCell.m; path = CustomTableViewPodProj/SearchTableViewCell.m; sourceTree = "<group>"; };
+		53D447E89FA97815C0C6E8D04D38E88E /* TrackModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TrackModel.m; path = CustomTableViewPodProj/TrackModel.m; sourceTree = "<group>"; };
+		572CD499CF828D0B113E6AA02859A49D /* Pods-MusicSearchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicSearchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6137646294CF9DD31AC37F11AF4A2C62 /* libPods-MusicSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MusicSearch.a"; path = "libPods-MusicSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6230A8F40A6B461D4132D6983C1D9A50 /* Pods-MusicSearch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicSearch-frameworks.sh"; sourceTree = "<group>"; };
+		66CD55674CCAF356425327C602DCD996 /* Pods-MusicSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicSearch.release.xcconfig"; sourceTree = "<group>"; };
+		67E1C50AEC3F116BD1B072E2EBFEFBE9 /* TrackModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrackModel.h; path = CustomTableViewPodProj/TrackModel.h; sourceTree = "<group>"; };
+		7C8828C401DC188FA58C6E2FE02DE7BD /* libPods-MusicSearchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MusicSearchTests.a"; path = "libPods-MusicSearchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC9F722B2F691474A4CFED93F43261F /* CustomTableViewPod2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CustomTableViewPod2-prefix.pch"; sourceTree = "<group>"; };
+		7FE710D2DFE773A782E132995BD749CB /* Pods-MusicSearchUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicSearchUITests-frameworks.sh"; sourceTree = "<group>"; };
+		8099CD65C28662E89CDF65B33F46E994 /* Pods-MusicSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84AAB700E65D7C0FA671F73799FD48FC /* Pods-MusicSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		90B1FC591C67AD089F4C9C3B7FC62654 /* Pods-MusicSearchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicSearchUITests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BA8AB8AB2DCA03DFDFC4265B79E917C /* TableViewDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TableViewDataSource.m; path = CustomTableViewPodProj/TableViewDataSource.m; sourceTree = "<group>"; };
+		A28F516CEF3D60F2F3989FF95A77DBF0 /* libCustomTableViewPod2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCustomTableViewPod2.a; path = libCustomTableViewPod2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0B2D8697A6574603187209C731879B /* Pods-MusicSearchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicSearchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C58F7746A50EAC5A8AFD3259B8B11380 /* Pods-MusicSearchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicSearchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0FCFA078F7C67304E309024FCEB7B54 /* libPods-MusicSearchUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MusicSearchUITests.a"; path = "libPods-MusicSearchUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D125BD6F8042F77D7CD2D306E43D061A /* Pods-MusicSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicSearch-acknowledgements.plist"; sourceTree = "<group>"; };
+		D664A07448AA01297C64C1131EB8DBAA /* Pods-MusicSearchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicSearchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE94392C4E28CF66563D8666E76B0A43 /* CustomTableViewPodProj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomTableViewPodProj.h; path = CustomTableViewPodProj/CustomTableViewPodProj.h; sourceTree = "<group>"; };
+		E19247C587BB2A192623B3D0D656FE52 /* Pods-MusicSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA888288C574B63CF77EC861C7ECF4F4 /* Pods-MusicSearch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicSearch-resources.sh"; sourceTree = "<group>"; };
+		F1B20EA65F763B5E99EF1ECE209163AC /* Pods-MusicSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D9034CA70CF6DB223C86765F01F696 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336B306E7F932C90AC7F02F20A9ACD3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189C55CB7040E892C1848952276E996D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3FF7517C6B4BCC1E3DC4037BF4F213 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EF083A4BE08F9028FC15071444BF56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FBF1E205EA9330C06E866BCF10FFEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A45B0F9E66B14ECC59B24C6ADFB2841F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				714ED78038BC7C988BA7446E93F554C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2598BD268DD20D295EFF9E3346F2EE4E /* CustomTableViewPod2 */ = {
+			isa = PBXGroup;
+			children = (
+				DE94392C4E28CF66563D8666E76B0A43 /* CustomTableViewPodProj.h */,
+				3A747D5D8BC95046B2DB39AABF2D0898 /* SearchTableViewCell.h */,
+				50F04D64DCBA3A3472E45362E3D9C1B2 /* SearchTableViewCell.m */,
+				1A293D5AC7C8B3D27DB489A7A982879A /* TableViewDataSource.h */,
+				9BA8AB8AB2DCA03DFDFC4265B79E917C /* TableViewDataSource.m */,
+				67E1C50AEC3F116BD1B072E2EBFEFBE9 /* TrackModel.h */,
+				53D447E89FA97815C0C6E8D04D38E88E /* TrackModel.m */,
+				5B578A663E843466AA0B5A664D0B935F /* Support Files */,
+			);
+			name = CustomTableViewPod2;
+			path = CustomTableViewPod2;
+			sourceTree = "<group>";
+		};
+		5B578A663E843466AA0B5A664D0B935F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7D81AA4C619C31EBCADB1EC9BBC009 /* CustomTableViewPod2.xcconfig */,
+				3A66C9C248B4307E2AE99AEEC8B3DA23 /* CustomTableViewPod2-dummy.m */,
+				7EC9F722B2F691474A4CFED93F43261F /* CustomTableViewPod2-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CustomTableViewPod2";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C335ECB0EFE9087D679590F4BD35A514 /* Pods */,
+				C00B66FDCBF4405289EC1FEAEF7A83E1 /* Products */,
+				B5951FA72D9B85DC7D0907A3AA45FA4B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFA99395A8D686D22A15F66320FB8FA /* Pods-MusicSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				572CD499CF828D0B113E6AA02859A49D /* Pods-MusicSearchTests-acknowledgements.markdown */,
+				AE0B2D8697A6574603187209C731879B /* Pods-MusicSearchTests-acknowledgements.plist */,
+				11C60A8B8693199B9E0A8DF472BAEC91 /* Pods-MusicSearchTests-dummy.m */,
+				07D1C1141FCD015F694B65465658B092 /* Pods-MusicSearchTests-frameworks.sh */,
+				12DE0835CCA78A55CD0D3BD176D0276B /* Pods-MusicSearchTests-resources.sh */,
+				8099CD65C28662E89CDF65B33F46E994 /* Pods-MusicSearchTests.debug.xcconfig */,
+				E19247C587BB2A192623B3D0D656FE52 /* Pods-MusicSearchTests.release.xcconfig */,
+			);
+			name = "Pods-MusicSearchTests";
+			path = "Target Support Files/Pods-MusicSearchTests";
+			sourceTree = "<group>";
+		};
+		B5951FA72D9B85DC7D0907A3AA45FA4B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBEFC58108550040E3A1A82C5EEBBF7E /* Pods-MusicSearch */,
+				7EFA99395A8D686D22A15F66320FB8FA /* Pods-MusicSearchTests */,
+				F392E6B945F3B9CBA0BA34DEAA154E96 /* Pods-MusicSearchUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C00B66FDCBF4405289EC1FEAEF7A83E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28F516CEF3D60F2F3989FF95A77DBF0 /* libCustomTableViewPod2.a */,
+				6137646294CF9DD31AC37F11AF4A2C62 /* libPods-MusicSearch.a */,
+				7C8828C401DC188FA58C6E2FE02DE7BD /* libPods-MusicSearchTests.a */,
+				D0FCFA078F7C67304E309024FCEB7B54 /* libPods-MusicSearchUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C335ECB0EFE9087D679590F4BD35A514 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2598BD268DD20D295EFF9E3346F2EE4E /* CustomTableViewPod2 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBEFC58108550040E3A1A82C5EEBBF7E /* Pods-MusicSearch */ = {
+			isa = PBXGroup;
+			children = (
+				34CCD22FE907E596C58571259131291F /* Pods-MusicSearch-acknowledgements.markdown */,
+				D125BD6F8042F77D7CD2D306E43D061A /* Pods-MusicSearch-acknowledgements.plist */,
+				3E856CDE5D14F8EBE2174747D5E24F1C /* Pods-MusicSearch-dummy.m */,
+				6230A8F40A6B461D4132D6983C1D9A50 /* Pods-MusicSearch-frameworks.sh */,
+				EA888288C574B63CF77EC861C7ECF4F4 /* Pods-MusicSearch-resources.sh */,
+				84AAB700E65D7C0FA671F73799FD48FC /* Pods-MusicSearch.debug.xcconfig */,
+				66CD55674CCAF356425327C602DCD996 /* Pods-MusicSearch.release.xcconfig */,
+			);
+			name = "Pods-MusicSearch";
+			path = "Target Support Files/Pods-MusicSearch";
+			sourceTree = "<group>";
+		};
+		F392E6B945F3B9CBA0BA34DEAA154E96 /* Pods-MusicSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C58F7746A50EAC5A8AFD3259B8B11380 /* Pods-MusicSearchUITests-acknowledgements.markdown */,
+				D664A07448AA01297C64C1131EB8DBAA /* Pods-MusicSearchUITests-acknowledgements.plist */,
+				90B1FC591C67AD089F4C9C3B7FC62654 /* Pods-MusicSearchUITests-dummy.m */,
+				7FE710D2DFE773A782E132995BD749CB /* Pods-MusicSearchUITests-frameworks.sh */,
+				49436EE90423E1FC9485AE245547E14F /* Pods-MusicSearchUITests-resources.sh */,
+				F1B20EA65F763B5E99EF1ECE209163AC /* Pods-MusicSearchUITests.debug.xcconfig */,
+				2F0852EA0A373FD048DBAD1703B76682 /* Pods-MusicSearchUITests.release.xcconfig */,
+			);
+			name = "Pods-MusicSearchUITests";
+			path = "Target Support Files/Pods-MusicSearchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CFA887ABE14B5131523E2BFE7CA71206 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23FADCB411F76A1D285378E94CDEA198 /* CustomTableViewPodProj.h in Headers */,
+				0037B4AB6763C65FA262BEE0FDE518D2 /* SearchTableViewCell.h in Headers */,
+				F1353B5E58E3CE38A780C43203F44AC7 /* TableViewDataSource.h in Headers */,
+				4A59B0FFF9054D35906A7CA421B3DE7B /* TrackModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7112D83F9BDF5A37683083533248F6A8 /* CustomTableViewPod2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1A7F7464B25A1268BD632F2963D514E /* Build configuration list for PBXNativeTarget "CustomTableViewPod2" */;
+			buildPhases = (
+				EB75B3DED8BC0EBACE4FC1EBA577B120 /* Sources */,
+				A45B0F9E66B14ECC59B24C6ADFB2841F /* Frameworks */,
+				CFA887ABE14B5131523E2BFE7CA71206 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTableViewPod2;
+			productName = CustomTableViewPod2;
+			productReference = A28F516CEF3D60F2F3989FF95A77DBF0 /* libCustomTableViewPod2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		82431C34172F4AE317FB87259E8E11E7 /* Pods-MusicSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8B7635F8A6BB494214E09C0BCC30C6 /* Build configuration list for PBXNativeTarget "Pods-MusicSearch" */;
+			buildPhases = (
+				7AB5D19DFECB97B790B0ED6C83EB2C52 /* Sources */,
+				189C55CB7040E892C1848952276E996D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CBDD43AF2F9E764740AF1843AAB2586 /* PBXTargetDependency */,
+			);
+			name = "Pods-MusicSearch";
+			productName = "Pods-MusicSearch";
+			productReference = 6137646294CF9DD31AC37F11AF4A2C62 /* libPods-MusicSearch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E7225C77C444B8D32B5D9FF4F88183D1 /* Pods-MusicSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B085A78F8F4B3BAA8F4DFABABDEE8D93 /* Build configuration list for PBXNativeTarget "Pods-MusicSearchUITests" */;
+			buildPhases = (
+				241F465B472C412CD67BCBED896590E5 /* Sources */,
+				12D9034CA70CF6DB223C86765F01F696 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MusicSearchUITests";
+			productName = "Pods-MusicSearchUITests";
+			productReference = D0FCFA078F7C67304E309024FCEB7B54 /* libPods-MusicSearchUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F94F4AFD4608A1AD2213AEFE3014D08A /* Pods-MusicSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAC03A1CCA92657F2E98322E20FD241 /* Build configuration list for PBXNativeTarget "Pods-MusicSearchTests" */;
+			buildPhases = (
+				3D9A7338F3FB44728C322A9A75AB0E76 /* Sources */,
+				52EF083A4BE08F9028FC15071444BF56 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MusicSearchTests";
+			productName = "Pods-MusicSearchTests";
+			productReference = 7C8828C401DC188FA58C6E2FE02DE7BD /* libPods-MusicSearchTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C00B66FDCBF4405289EC1FEAEF7A83E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7112D83F9BDF5A37683083533248F6A8 /* CustomTableViewPod2 */,
+				82431C34172F4AE317FB87259E8E11E7 /* Pods-MusicSearch */,
+				F94F4AFD4608A1AD2213AEFE3014D08A /* Pods-MusicSearchTests */,
+				E7225C77C444B8D32B5D9FF4F88183D1 /* Pods-MusicSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241F465B472C412CD67BCBED896590E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BACA62F76EA664142BB109B4364AF63 /* Pods-MusicSearchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9A7338F3FB44728C322A9A75AB0E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3CF1E644BA85A60687D00367C3587C /* Pods-MusicSearchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB5D19DFECB97B790B0ED6C83EB2C52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9DE8EF9CCF8D66CF9889F846B1C711C /* Pods-MusicSearch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB75B3DED8BC0EBACE4FC1EBA577B120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065DCA1560D1F4E9EEA5A5247DB871CB /* CustomTableViewPod2-dummy.m in Sources */,
+				BA202436D4B6575A113886436AF4C788 /* SearchTableViewCell.m in Sources */,
+				6EF8D2125658E76E037F0E608685ACBB /* TableViewDataSource.m in Sources */,
+				30BDB267D6032C0857F7F01F84148412 /* TrackModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CBDD43AF2F9E764740AF1843AAB2586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CustomTableViewPod2;
+			target = 7112D83F9BDF5A37683083533248F6A8 /* CustomTableViewPod2 */;
+			targetProxy = 87021B08768772C2291B5334AF8FFD9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		42D63C2984B4F0261A47282CB8636AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84AAB700E65D7C0FA671F73799FD48FC /* Pods-MusicSearch.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4B99CD09CA7A2C55D548194D5DA9CD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0852EA0A373FD048DBAD1703B76682 /* Pods-MusicSearchUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7AF4666D43AA50B4F78EC006D7FCA77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8099CD65C28662E89CDF65B33F46E994 /* Pods-MusicSearchTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8223083D0FA11A20EC37C2F7B2058458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7D81AA4C619C31EBCADB1EC9BBC009 /* CustomTableViewPod2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CustomTableViewPod2/CustomTableViewPod2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8DBFB46E45C7CF1CCAC2F874CAF89572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CD55674CCAF356425327C602DCD996 /* Pods-MusicSearch.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AE3471B54137B1FC876BF15358C996EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19247C587BB2A192623B3D0D656FE52 /* Pods-MusicSearchTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0447941B4699412407D89345EAE6113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7D81AA4C619C31EBCADB1EC9BBC009 /* CustomTableViewPod2.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CustomTableViewPod2/CustomTableViewPod2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8D3E6F25DA6CAD053797975A5181314 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B20EA65F763B5E99EF1ECE209163AC /* Pods-MusicSearchUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8B7635F8A6BB494214E09C0BCC30C6 /* Build configuration list for PBXNativeTarget "Pods-MusicSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D63C2984B4F0261A47282CB8636AB2 /* Debug */,
+				8DBFB46E45C7CF1CCAC2F874CAF89572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAC03A1CCA92657F2E98322E20FD241 /* Build configuration list for PBXNativeTarget "Pods-MusicSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF4666D43AA50B4F78EC006D7FCA77C /* Debug */,
+				AE3471B54137B1FC876BF15358C996EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B085A78F8F4B3BAA8F4DFABABDEE8D93 /* Build configuration list for PBXNativeTarget "Pods-MusicSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8D3E6F25DA6CAD053797975A5181314 /* Debug */,
+				4B99CD09CA7A2C55D548194D5DA9CD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1A7F7464B25A1268BD632F2963D514E /* Build configuration list for PBXNativeTarget "CustomTableViewPod2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0447941B4699412407D89345EAE6113 /* Debug */,
+				8223083D0FA11A20EC37C2F7B2058458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+PODS:
+  - CustomTableViewPod2 (1.0.0)
+
+DEPENDENCIES:
+  - CustomTableViewPod2 (from `https://github.com/vallal7/CustomTableViewPod2`, tag `1.0.0`)
+
+EXTERNAL SOURCES:
+  CustomTableViewPod2:
+    :git: https://github.com/vallal7/CustomTableViewPod2
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  CustomTableViewPod2:
+    :git: https://github.com/vallal7/CustomTableViewPod2
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  CustomTableViewPod2: 1aa98593fa1e7dc5a25b8ecb2df8a5e1d1946cf3
+
+PODFILE CHECKSUM: 276d47da120d07ba7e790937fd37b792a8a73afd
+
+COCOAPODS: 1.1.1
